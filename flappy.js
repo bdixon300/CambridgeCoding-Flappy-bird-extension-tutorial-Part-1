@@ -137,8 +137,7 @@ function changeScore() {
     // updates the score label
     labelScore.setText(score.toString());
 }
-function fire()
-{
+function fire() {
 var bullet = game.add.sprite(player.x, player.y, "bullet");
 game.physics.arcade.enable(bullet);
 bullet.body.velocity.x = 300;
